@@ -34,3 +34,4 @@ tests/_support/_generated
 
 #deploy
 deploy.sh
+/config/db.php
