@@ -2,9 +2,7 @@
 
 namespace app\models;
 
-use app\modules\db_rbac\interfaces\UserRbacInterface;
-
-class User extends \yii\base\BaseObject implements \yii\web\IdentityInterface,UserRbacInterface
+class User extends \yii\base\BaseObject implements \yii\web\IdentityInterface
 {
     public $id;
     public $username;
@@ -28,11 +26,7 @@ class User extends \yii\base\BaseObject implements \yii\web\IdentityInterface,Us
             'accessToken' => '101-token',
         ],
     ];
-    
-    public function getUserName()
-    {
-        return $this->username;
-    }
+
 
     /**
      * {@inheritdoc}
