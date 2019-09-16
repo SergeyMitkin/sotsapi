@@ -31,3 +31,8 @@ tests/_support/_generated
 
 #vagrant folder
 /.vagrant
+
+#deploy
+deploy.sh
+/config/db.php
+/config/web_data.php
