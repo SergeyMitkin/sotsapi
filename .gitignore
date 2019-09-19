@@ -1,3 +1,9 @@
+### Yii2 ###
+# yii console commands
+/yii
+/yii_test
+/yii_test.bat
+
 # phpstorm project files
 .idea
 
@@ -31,3 +37,8 @@ tests/_support/_generated
 
 #vagrant folder
 /.vagrant
+
+#deploy
+deploy.sh
+/config/db.php
+/config/web_data.php
