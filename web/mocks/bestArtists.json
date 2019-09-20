@@ -1,0 +1,59 @@
+{
+  "imgs_fold": "imgs-users/",
+  "contents": [
+    {
+      "id_artist": 123,
+      "url": "123.jpg",
+      "artist_rating": 5,
+      "name": "Анна Михалкова"
+    },
+    {
+      "id_artist": 412,
+      "url": "412.jpg",
+      "artist_rating": 4,
+      "name": "Иван Круглый"
+    },
+    {
+      "id_artist": 458,
+      "url": "458.jpg",
+      "artist_rating": 4,
+      "name": "Вася Л"
+    },
+    {
+      "id_artist": 456,
+      "url": "456.jpg",
+      "artist_rating": 3,
+      "name": "Мария Кисть"
+    },
+    {
+      "id_artist": 224,
+      "url": "224.jpg",
+      "artist_rating": 2,
+      "name": "Игорь Белый"
+    },
+    {
+      "id_artist": 129,
+      "url": "129.jpg",
+      "artist_rating": 1,
+      "name": "Артём Кляксин"
+    },
+    {
+      "id_artist": 124,
+      "url": "124.jpg",
+      "artist_rating": 0,
+      "name": "Михаил Зимин"
+    },
+    {
+      "id_artist": 311,
+      "url": "311.jpg",
+      "artist_rating": 0,
+      "name": "Арина Синёва"
+    },
+    {
+      "id_artist": 500,
+      "url": "500.jpg",
+      "artist_rating": 0,
+      "name": "Всеволод Макеев"
+    }
+  ]
+}
