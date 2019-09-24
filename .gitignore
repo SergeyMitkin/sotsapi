@@ -17,6 +17,7 @@ Thumbs.db
 
 # composer itself is not needed
 composer.phar
+composer.lock
 
 # Mac DS_Store Files
 .DS_Store
@@ -35,3 +36,4 @@ tests/_support/_generated
 #deploy
 deploy.sh
 /config/db.php
+/config/web_data.php
