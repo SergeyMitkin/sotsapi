@@ -32,7 +32,7 @@ class UserController extends Controller
 
         if (!$user instanceof UserRbacInterface) {
             throw new BadRequestHttpException(Yii::t('db_rbac',
-                'UserClass должен реализовывать интерфейс developeruz\db_rbac\UserRbacInterface'));
+                'UserClass должен реализовывать интерфейс app\modules\db_rbac\UserRbacInterface'));
         }
 
         return parent::beforeAction($action);
