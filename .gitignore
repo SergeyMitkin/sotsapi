@@ -35,5 +35,5 @@ tests/_support/_generated
 
 #deploy
 deploy.sh
-/config/db.php
-/config/web_data.php
+config/db.php
+config/web_data.php
