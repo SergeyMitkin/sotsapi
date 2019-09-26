@@ -1,6 +1,6 @@
 <h4>Картинка: "<?=$images?>"</h4>
 
-<img src = "../img/banner/<?=$images?>">
+<img src = "/img/banner/<?=$images?>">
 
 
 

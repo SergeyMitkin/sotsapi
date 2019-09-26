@@ -23,12 +23,12 @@ class BannerController extends Controller
             'models' => $images,
         ]);
         $modelFileUpload = new FileUpload();
-        $fileName = $this->findModel($images);
 
+        //загружаем  изображение и добавляем его url в json-файл
         if(\Yii::$app->request->isPost){
             $modelFileUpload->file = UploadedFile::getInstance($modelFileUpload, 'file');
-            $modelFileUpload->uploadFile();
-            $modelFileUpload->insertToJson($fileName);
+            $modelFileUpload->insertToJson($modelFileUpload->uploadFile());
+            return $this->redirect(['index']);
         }
 
         return $this->render('index', [
@@ -39,7 +39,7 @@ class BannerController extends Controller
     }
 
     public function actionOne($images){
-        //создаём страницу для вывода полного изображения одного изображения
+        //создаём страницу для вывода полного изображения
         return $this->render('picture_item',[
             'images' => $this->findModel($images),
         ]);

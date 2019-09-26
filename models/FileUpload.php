@@ -34,6 +34,7 @@ class FileUpload extends Model
         $this->file->saveAs(\Yii::getAlias($path));
         Image::thumbnail($path, 200, 100)
         ->save(\Yii::getAlias('@imgUploads/banner/small/' . $fileName));
+        return $fileName;
     }
 
     public function deleteFile($path, $pathSmall){
